@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Soporte IT</title>
-
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,18 +23,27 @@
 
 <body>
     <header>
-        <div>
+        <div class="divLogo">
             <!--Acá va el logo-->
             <a href="index.html"><img src="./assets/images/logo.png" alt="Logo principal"></a>
         </div>
-        <nav> <!--Menú principal-->
-            <ul class="navegacion">
-                <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./pages/nosotros.html">Nosotros</a></li>
-                <li><a href="./pages/servicios.html">Servicios</a></li>
-                <li><a href="./pages/acceso_clientes.html">Acceso Clientes</a></li>
-                <li><a href="./pages/contacto.html">Contacto</a></li>
-            </ul>
+        <!--Barra de Navegación Responsive con BS-->
+        <nav class="navbar navbar-expand-lg ">
+            <button class="navbar-toggler ms-auto hidden-sm-up float-xs-right me-2" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Mostrar/Ocultar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav navegacion">
+                    <li class="nav-item active"><a class="nav-link item_menu" href="./index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./pages/nosotros.html">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./pages/servicios.html">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./pages/acceso_clientes.html">Acceso Clientes</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="./pages/contacto.html">Contacto</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
     <main>
