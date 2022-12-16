@@ -19,6 +19,12 @@ a {
     text-decoration: none;
 }
 
+i{
+    font-size: 3em;
+    color: #A8AEC1;
+    margin-bottom: 10px;
+}
+
 /* Header y Nav */
 /************************************************/
 header{
@@ -229,8 +235,9 @@ footer{
     flex-direction: row;
     position: fixed;
     bottom: 0;
-    
     width: 100%;
+    align-items: center;
+    
 }
 .padre_footer_mapa {
     display: flex;
@@ -261,12 +268,7 @@ footer{
 .redes_sociales{
     display: flex;
     justify-content: space-around;
+    align-content: center;
     width: 40%;
     align-items: center;
-}
-
-i{
-    font-size: 3em;
-    color: #A8AEC1;
-    margin-bottom: 10px;
 }
