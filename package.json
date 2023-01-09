@@ -1,8 +1,8 @@
 {
-  "name": "proyecto3",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "Pre-Entrega 3 del Proyecto de Desarrollo Web Coderhouse",
+  "version": "0.3",
+  "description": "Proyecto de un Sitio Web de una empresa que presta servicios de Consultoría IT",
+  "main": "index.html",
   "dependencies": {
     "abbrev": "^1.1.1",
     "agent-base": "^6.0.2",
