@@ -46,7 +46,7 @@ main {
     display: block;
     margin-top: 30px;
 }
-.etiquetas p i {
+.icono-acceso-clientes {
     font-size: 18px;
 }
 .nombre {
@@ -70,4 +70,16 @@ main {
     width: 100%;
     resize: none;
     height: 20em;
+}
+.alineacion-acceso-clientes, .alineacion-acceso-clientes-input {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .alineacion-acceso-clientes {
+        text-align: right;
+    }
+    .alineacion-acceso-clientes-input {
+        text-align: left;
+    }
 }

@@ -19,6 +19,9 @@
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <!--CSS Propio del Proyecto-->
     <link rel="stylesheet" href="../css/style.css">
+    <!--SEO-->
+    <meta name="description" content="Acceso al portal de clientes, donde podrá gestionar todas sus consultas">
+    <meta name="keywords" content="Soporte, Redes, Conectividad, Cloud, Servidores, Windows, Linux, Mac, Apple, iPhone, Android, iPad, VPN, Seguridad, Ciberseguridad, Help Desk, Desktop, Laptop, Notebook, Motherboard, Procesador, Memoria, SSD, Disco Duro">
 </head>
 
 <body>
@@ -48,17 +51,14 @@
     </header>
     <main>
         <h1>Acceso a Clientes</h1>
-        <section class="acceso_clientes">
-            <div class="etiquetas">
-                <p><i class="fa-solid fa-user"></i> Nombre de Usuario</p>
-                <p><i class="fa-solid fa-key"></i> Contraseña</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-6 alineacion-acceso-clientes"><i class="fa-solid fa-user icono-acceso-clientes"></i> Nombre de Usuario</div>
+                <div class="col-xs-12 col-md-6 alineacion-acceso-clientes-input"><input type="text" id="input_username" placeholder="Ingrese su Usuario"></div>
+                <div class="col-xs-12 col-md-6 alineacion-acceso-clientes"><i class="fa-solid fa-key icono-acceso-clientes"></i> Contraseña</div>
+                <div class="col-xs-12 col-md-6 alineacion-acceso-clientes-input"><input type="password" id="input_password" placeholder="Ingrese su Contraseña"></div>
             </div>
-            <div class="inputs">
-                <input type="text" id="input_username" placeholder="Ingrese su Usuario">
-                <input type="password" id="input_password" placeholder="Ingrese su Contraseña">
-            </div>
-
-        </section>
+        </div>
         <section class="padre_botones_enlace">
             <input type="button" value="Registrarse" class="btn_registrarse">
             <input type="button" value="Iniciar Sesión" class="btn_iniciar_sesion">
