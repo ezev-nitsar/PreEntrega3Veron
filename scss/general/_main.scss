@@ -1,40 +1,50 @@
 main {
     height: 100%;
+
     h1 {
-        text-align: center; 
+        text-align: center;
     }
 }
+
 .texto_descripcion {
     width: 100%;
     text-align: center;
 }
+
 .sobre_nosotros {
     width: 100%;
+
     img {
         width: 100%;
         border-radius: 20px;
     }
+
     p {
         font-size: $tamanoFuenteSobreNosotrosYServicios;
         margin-top: 2%;
         margin-bottom: 2%;
     }
 }
+
 .servicios {
-    width:100%;
+    width: 100%;
+
     p {
         font-size: $tamanoFuenteSobreNosotrosYServicios;
         margin-top: 2%;
         margin-bottom: 2%;
     }
+
     img {
         width: 100%;
         border-radius: 20px;
-    }    
+    }
 }
+
 .etiquetas {
     width: 50%;
     text-align: right;
+
     p {
         display: block;
         margin-right: 20px;
@@ -46,21 +56,27 @@ main {
     display: block;
     margin-top: 30px;
 }
+
 .icono-acceso-clientes {
     font-size: 18px;
 }
+
 .nombre {
     width: 100%;
+
     input {
         width: 100%;
     }
 }
+
 .email {
     width: 100%;
 }
+
 .email input {
     width: 100%;
 }
+
 .comentarios {
     margin-top: 10px;
     width: 100%;
@@ -71,7 +87,9 @@ main {
     resize: none;
     height: 20em;
 }
-.alineacion-acceso-clientes, .alineacion-acceso-clientes-input {
+
+.alineacion-acceso-clientes,
+.alineacion-acceso-clientes-input {
     text-align: center;
 }
 
@@ -79,6 +97,7 @@ main {
     .alineacion-acceso-clientes {
         text-align: right;
     }
+
     .alineacion-acceso-clientes-input {
         text-align: left;
     }

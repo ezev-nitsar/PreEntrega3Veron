@@ -200,7 +200,8 @@ main {
   resize: none;
   height: 20em; }
 
-.alineacion-acceso-clientes, .alineacion-acceso-clientes-input {
+.alineacion-acceso-clientes,
+.alineacion-acceso-clientes-input {
   text-align: center; }
 
 @media (min-width: 768px) {
