@@ -242,11 +242,3 @@ footer{
     margin-left:20px;
     margin-top: 10px;
 }
-
-.redes_sociales{
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
-    width: 40%;
-    align-items: center;
-}
