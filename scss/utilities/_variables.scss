@@ -1,0 +1,30 @@
+/*Tipografias*/
+$fuente: 'Montserrat', sans-serif;
+$tamanoFuenteSobreNosotrosYServicios: 16px;
+
+/*Colores*/
+$colores: (
+    colorPrimario: #FCE592,
+    colorEfectoNavBar: #EAB464,
+    colorFooter: #B5D2CB,
+    colorRedesSociales: #A8AEC1,
+);
+
+/*Animación NavBar*/
+$navBar: (
+    tiempoTransicion: 0.4s,
+    tiempoTransicionNavLink: 0.2s,
+    altoAnimacionNavBar: 2px
+);
+
+/*Efecto Mapa Footer*/
+$opacidadMapaFooter: (
+normalOp: 0.8,
+hoverOp: 1,
+);
+
+/*Mixins*/
+@mixin flex-row() {
+    display: flex;
+    flex-direction: row;
+}

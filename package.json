@@ -1,0 +1,26 @@
+{
+  "name": "PreEntrega3ProyectoDesarrolloWeb",
+  "version": "0.3",
+  "description": "Pre-entrega 3 del Proyecto de un sitio web sobre una empresa proveedora de soluciones IT",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezev-nitsar/PreEntrega2Veron.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ezev-nitsar/PreEntrega2Veron/issues"
+  },
+  "homepage": "https://github.com/ezev-nitsar/PreEntrega2Veron#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}

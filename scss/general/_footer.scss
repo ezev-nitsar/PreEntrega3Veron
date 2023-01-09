@@ -1,0 +1,37 @@
+footer {
+    background-color: map-get($colores, colorFooter);
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    align-items: center;
+
+}
+
+.mapa_footer {
+    width: 10%;
+}
+
+.mapa_footer img {
+    width: 100%;
+    margin: 10px;
+    border-radius: 5px;
+    opacity: map-get($opacidadMapaFooter, normalOp);
+}
+
+.mapa_footer img:hover {
+    opacity: map-get($opacidadMapaFooter, hoverOp);
+}
+
+.datos_footer {
+    width: 100%;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+i {
+    font-size: 3em;
+    color: map-get($colores, colorRedesSociales);
+    margin-bottom: 10px;
+}

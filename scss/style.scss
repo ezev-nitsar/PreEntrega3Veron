@@ -1,0 +1,17 @@
+/*Utilidades*/
+@import "./utilities/variables";
+
+/*RESET de valores CSS y seteos globales*/
+@import "./normalize/reset";
+
+/*Componentes*/
+@import "./components/components";
+
+/*Flex*/
+@import "./layout/flex";
+
+/*Generales*/
+@import "./general/header";
+@import "./general/navbar";
+@import "./general/footer";
+@import "./general/main";

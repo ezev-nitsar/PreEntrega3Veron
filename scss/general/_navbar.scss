@@ -1,0 +1,19 @@
+nav{
+    width: 50%;
+}
+.nav-item::after {
+    content: '';
+    display: block;
+    width: 0px;
+    height: map-get($navBar, altoAnimacionNavBar);
+    background: map-get($colores, colorEfectoNavBar);
+    transition: map-get($navBar, tiempoTransicion);
+}
+
+.nav-item:hover::after {
+    width: 100%
+}
+
+.nav-link {
+    transition: map-get($navBar, tiempoTransicionNavLink);
+}

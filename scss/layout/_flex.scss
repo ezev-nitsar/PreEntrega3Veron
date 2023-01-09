@@ -1,0 +1,37 @@
+.navegacion{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.acceso_clientes {
+    @include flex-row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    width: 100%;
+}
+.contacto {
+    @include flex-row;
+    justify-content: center;
+}
+.padre_footer_mapa {
+    @include flex-row;
+    width: 100%;
+    
+}
+.imagen_principal{
+    @include flex-row;
+    justify-content: center;
+    img{
+        width: 100%;    
+    }
+}
+.padre_botones_enlace {
+    @include flex-row;
+    width: 100%;
+    justify-content: center;
+    p {
+        margin-top: 10px;
+    }
+}
